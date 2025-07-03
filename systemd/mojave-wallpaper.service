@@ -1,0 +1,9 @@
+[Unit]
+Description=Mojave Dynamic Wallpaper for KDE
+
+[Service]
+Type=oneshot
+ExecStart=__SCRIPT_PATH__
+
+[Install]
+WantedBy=default.target
